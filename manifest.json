@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Borderless Window Opener",
+  "version": "1.1",
+  "description": "Open websites in a borderless, minimizable popup window.",
+  "permissions": ["windows"],
+  "action": {
+    "default_title": "Open Borderless Window",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
